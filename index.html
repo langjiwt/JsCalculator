@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="js.js"></script>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,17 +13,42 @@
             <h1>JS Calculator</h1>
         </div>
         <div class="screen">
-            <div class="result"></div>
+            <div class="result" id="result"></div>
         </div>
         <div class="btn-area">
             <div class="row">
-                <div class="btn"><button type="button">AC</button></div>
-                <div class="btn"><button type="button">AC</button></div>
-                <div class="btn"><button type="button">AC</button></div>
-                <div class="btn"><button type="button">AC</button></div>
+                <div class="btn"><button type="button" id="ac">AC</button></div>
+                <div class="btn"><button type="button" id="ce">CE</button></div>
+                <div class="btn"><button type="button" id="mod">%</button></div>
+                <div class="btn"><button type="button" id="divide">/</button></div>
+            </div>
+            <div class="row">
+                <div class="btn"><button type="button" id="7">7</button></div>
+                <div class="btn"><button type="button" id="8">8</button></div>
+                <div class="btn"><button type="button" id="9">9</button></div>
+                <div class="btn"><button type="button" id="times">*</button></div>
+            </div>
+            <div class="row">
+                <div class="btn"><button type="button" id="4">4</button></div>
+                <div class="btn"><button type="button" id="5">5</button></div>
+                <div class="btn"><button type="button" id="6">6</button></div>
+                <div class="btn"><button type="button" id="minus">-</button></div>
+            </div>
+            <div class="row">
+                <div class="btn"><button type="button" id="1">1</button></div>
+                <div class="btn"><button type="button" id="2">2</button></div>
+                <div class="btn"><button type="button" id="3">3</button></div>
+                <div class="btn"><button type="button" id="plus">+</button></div>
+            </div>
+            <div class="row">
+                <div class="btn"><button type="button" id="dot">.</button></div>
+                <div class="btn"><button type="button" id="0">0</button></div>
+                <div class="btn"><button type="button" id="ans">Ans</button></div>
+                <div class="btn"><button type="button" id="equal">=</button></div>
             </div>
         </div>
     </div>
 </div>
+<script src="js.js"></script>
 </body>
 </html>
