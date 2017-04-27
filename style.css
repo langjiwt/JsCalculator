@@ -1,0 +1,44 @@
+body{
+    background:#e6e6e6
+}
+.main{
+    width:500px;
+    margin:auto;
+    background:#FFC107;
+    border-radius: 5px;
+    /* padding:10px; */
+}
+h1{
+    font-size:20px;
+    margin:10px 0;
+    text-align: center;
+}
+.screen{
+
+}
+.result{height: 30px;background: #ffd26a;text-align: right;}
+.btn-area{
+
+}
+.row{
+
+}
+.row:after{
+    content:' ';
+    display:block;
+    clear: both;
+}
+.btn-area .btn{
+    height: 60px;
+    border: none;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 5px;
+    float: left;
+}
+.btn-area button{
+    width:100%;
+    background:#fff;
+    border:none;
+    height:50px;
+}
