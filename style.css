@@ -15,7 +15,12 @@ h1{
     color: #fff;
 }
 .screen{padding: 10px 0;}
-.result{height: 30px;background: #ffd26a;text-align: right;}
+.result{
+    height: 30px;
+    background: #ffd26a;
+    text-align: right;
+    line-height:30px;
+}
 .btn-area{
 
 }
