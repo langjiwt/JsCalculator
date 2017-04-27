@@ -2,14 +2,14 @@ body{
     background:#e6e6e6
 }
 .main{
-    width: 400px;
+    width: 250px;
     margin: 100px auto;
     background:#FFC107;
     border-radius: 10px;
     padding: 20px;
 }
 h1{
-    font-size: 25px;
+    font-size: 20px;
     margin:10px 0;
     text-align: center;
     color: #fff;
@@ -20,12 +20,7 @@ h1{
     background: #ffd26a;
     text-align: right;
     line-height:30px;
-}
-.btn-area{
-
-}
-.row{
-
+    padding-right:10px;
 }
 .row:after{
     content:' ';
@@ -43,5 +38,5 @@ h1{
     width:100%;
     background:#fff;
     border:none;
-    height: 60px;
+    height: 40px;
 }

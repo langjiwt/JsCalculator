@@ -41,6 +41,7 @@ $('ce').onclick = function () {
 
 //等于键
 $('equal').onclick = function () {
+    if(result == '') return;
     try{
         result = eval(result);
         update();
@@ -79,7 +80,7 @@ function keyPress(){
     if((keyCode>47 && keyCode<58)||(keyCode>105 && keyCode<108)||keyCode==13||(keyCode>108&&keyCode<112)||keyCode==8){
         if(keyCode == 13){
             $('equal').click();
-            return null;
+            return false;
         }
         else if(keyCode == 110){
             result +='.';
